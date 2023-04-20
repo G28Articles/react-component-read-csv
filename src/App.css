@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.upload-box {
+    @apply bg-slate-100 text-slate-900 p-10 rounded-lg outline-slate-200 outline-2 outline-dashed hover:bg-slate-500 hover:text-white hover:outline-slate-600 mb-5;
+}
+
+.button {
+    @apply bg-sky-500 hover:bg-sky-700 focus:outline-none text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto;
+}
